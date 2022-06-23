@@ -33,6 +33,7 @@ header{
     left:0;
     right: 0;
     background-color: white;
+    z-index: 99;
 }
 
 .logo{
@@ -74,6 +75,7 @@ li:nth-child(4){
 
 .row{
     display: flex;
+    justify-content: space-around;
 }
 
 .col{
@@ -130,15 +132,17 @@ li:nth-child(4){
 .container-small{
     max-width: 1050px;
     margin: 0 auto;
-    border: 2px solid red;
+    
 }
 
 .col-33{
-    flex-basis: calc(100%/3);
+    flex-basis: 300px;
     border: 1px solid rgba(208,208,211,255);
     margin-top: 40px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    padding: 0px 20px;
 }
 
 .col-100{
@@ -153,9 +157,10 @@ li:nth-child(4){
     margin-bottom: 12px;
     cursor: pointer;
     font-size: 16px;
-    margin-right: 20px;
-    margin-left: 5px;
-  }
+    margin-right: -10px;
+    margin-left: 27px;
+}
+  
   
   .container-label input {
     position: absolute;
@@ -206,7 +211,7 @@ li:nth-child(4){
     font-size: 45px;
     font-weight: bold;
     margin-bottom: 60px;
-    margin-left: 5px;
+    margin-left: 27px;
 }
 
 .plan-pro-user{
@@ -221,8 +226,51 @@ li:nth-child(4){
 .p-user::after{
     content:"";
     display: block;
-    border: 1px solid rgba(208,208,211,255);
+    border-bottom: 1px solid rgba(208,208,211,255);
     position: relative;
     margin-top: 15px;
-    width: 200px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.title-plans{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.price-plan{
+    margin-bottom: 40px;
+}
+
+#buy-now{
+    color: blue;
+    text-decoration: underline;
+}
+
+.short-line{
+ margin-top: 10px;
+}
+
+.short-line::after{
+    content: "";
+    display: block;
+    border-bottom: 2px solid rgba(208,208,211,255);
+    width: 50px;
+    margin: 35px 0;
+}
+
+.list-items-plan li{
+    gap: 5px;
+    display: flex;
+    padding: 10px 0;
+}
+
+.fa-solid{
+    margin-right: 2px;
+    padding-top: 3px;
+}
+
+.fa-check{
+    color: #2196F3;
 }
