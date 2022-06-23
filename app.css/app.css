@@ -13,9 +13,9 @@ ul, ol, menu{
     list-style: none;
 }
 
-/* img{
+img{
     max-width: 100%;
-} */
+}
 
 a{
     color: currentColor;
@@ -51,4 +51,57 @@ li:nth-child(4){
 
 /* main */
 
+.main-section{
+    background-color:rgba(180,208,231,255) ;
+}
 
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    border: 1px solid green;
+    padding: 5px;
+}
+.col-40{
+    flex-basis: 35%;
+}
+
+.col-60{
+    flex-basis: 65%;
+}
+
+.main-title{
+    padding: 5px;
+    font-weight: 900;
+    font-size: 75px;
+    padding-top: 100px;
+    margin-bottom: 90px;
+}
+
+.main-paragraph{
+    margin-bottom: 35px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.btn{
+    background-color:rgba(0,97,255,255);
+    font-size: 18px;
+    padding: 15px;
+    border-style: none;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.img-jumbo{
+    width: 778px;
+    height: 462px;
+    position: absolute;
+}
