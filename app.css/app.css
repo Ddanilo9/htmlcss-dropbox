@@ -58,7 +58,6 @@ li:nth-child(4){
 .container{
     max-width: 1220px;
     margin: 0 auto;
-    border: 2px solid red;
 }
 
 .row{
@@ -85,6 +84,11 @@ li:nth-child(4){
     margin-bottom: 90px;
 }
 
+.paragraph{
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
 .main-paragraph{
     margin-bottom: 35px;
     line-height: 1.5;
@@ -97,11 +101,15 @@ li:nth-child(4){
     padding: 15px;
     border-style: none;
     color: white;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 .img-jumbo{
     width: 778px;
-    height: 462px;
+    height: 490px;
     position: absolute;
+}
+
+.fa-arrow-down{
+    font-size: 50px;
 }
