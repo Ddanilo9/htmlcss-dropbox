@@ -6,7 +6,7 @@
 
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 ul, ol, menu{
@@ -21,3 +21,34 @@ a{
     color: currentColor;
     text-decoration: none;
 }
+
+/* header */
+
+.logo{
+    float: left;
+    padding: 34px 20px;
+}
+.nav-list{
+    display: flex;
+    color: rgba(14,14,14,255);
+    gap: 40px;
+}
+
+li{
+    padding: 5px;
+}
+li:nth-child(4){
+    background-color: rgba(0,97,255,255);
+    color: white;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 20px;
+}
+
+
+/* main */
+
+
