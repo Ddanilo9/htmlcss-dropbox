@@ -61,11 +61,11 @@ li:nth-child(4){
 }
 
 
-/* main */
+/* Hero section */
 
 .main-section{
     background-color:rgba(180,208,231,255) ;
-    margin-bottom: 100px;
+    margin-bottom: 140px;
 }
 
 .container{
@@ -75,7 +75,7 @@ li:nth-child(4){
 
 .row{
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .col{
@@ -127,38 +127,58 @@ li:nth-child(4){
     font-size: 50px;
 }
 
-/* section2 */
+/* section plan */
 
+.plan-cont{
+    margin-bottom: 50px;
+}
 .container-small{
     max-width: 1050px;
     margin: 0 auto;
-    
+    padding: 5px;
 }
 
-.col-33{
-    flex-basis: 300px;
-    border: 1px solid rgba(208,208,211,255);
-    margin-top: 40px;
+.card-wrapper{
+    gap: 50px;
+}
+
+.col{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.col-12{
+    flex-basis: calc(100%/1);
+}
+
+.card{
+    border: 1px solid gray;
+}
+
+.card-header{
+    border-bottom: 1px solid gray;
+    padding: 13px 0;
     display: flex;
-    flex-direction: column;
-    position: relative;
-    padding: 0px 20px;
+    justify-content: center;
+    gap: 10px;
 }
 
-.col-100{
-    flex-basis: 100%;
+.card-body{
+    padding: 32px 24px;
 }
-
 /* radio buttons */
 
 .container-label {
     position: relative;
     padding-left: 35px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     cursor: pointer;
     font-size: 16px;
-    margin-right: -10px;
-    margin-left: 27px;
+    margin-right: 20px;
+}
+
+.btn-1{
+    width: 100%;
 }
   
   
@@ -211,45 +231,33 @@ li:nth-child(4){
     font-size: 45px;
     font-weight: bold;
     margin-bottom: 60px;
-    margin-left: 27px;
+} 
+
+.plan-title{
+    font-size: 25px;
+    padding-bottom: 20px;
 }
 
-.plan-pro-user{
-    align-items: center;
-}
-
-.p-user{
-    align-self: center;
+.plan-frequency{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(101, 100, 100);
     padding-top: 15px;
+    padding-bottom: 45px;
 }
 
-.p-user::after{
-    content:"";
-    display: block;
-    border-bottom: 1px solid rgba(208,208,211,255);
-    position: relative;
-    margin-top: 15px;
-    width: 100%;
-    position: absolute;
-    left: 0;
+.fa-user,
+.fa-folder{
+    padding-bottom: 20px;
 }
 
-.title-plans{
-    margin-top: 30px;
-    margin-bottom: 25px;
-}
-
-.price-plan{
-    margin-bottom: 40px;
+.fa-share-nodes{
+    padding-bottom: 45px;
 }
 
 #buy-now{
     color: blue;
     text-decoration: underline;
-}
-
-.short-line{
- margin-top: 10px;
 }
 
 .short-line::after{
@@ -260,20 +268,6 @@ li:nth-child(4){
     margin: 35px 0;
 }
 
-.list-items-plan li{
-    gap: 5px;
-    display: flex;
-    padding: 10px 0;
-}
-
-.fa-solid{
-    margin-right: 2px;
-    padding-top: 3px;
-}
-
-.fa-check{
-    color: #2196F3;
-}
 
 /* seconda sezione */
 
@@ -285,15 +279,14 @@ li:nth-child(4){
     margin-bottom: 120px;
 }
 
-.col-60{
+.col-70{
     flex-basis: 60%;
     padding-right: 50px;
     border: 1px solid red;
 }
 
-.col-40{
+.col-50{
     flex-grow: 1;
-    border: 1px solid red;
     padding-right: 60px;
 }
 
@@ -367,14 +360,37 @@ li:nth-child(4){
 
 .col99{
     flex-basis: calc(100%/2);
-    border: 1px solid green;
+
 }
 
 .logo-images-box{
     padding: 40px 60px;
+    display: block;
 }
 
 
-.t5{
+.col99:nth-child(1){
     background-color: aqua;
+}
+
+.col99:nth-child(2){
+    background-color: red;
+}
+
+.col99:nth-child(3){
+    background-color: goldenrod;
+    height: 150px;
+}
+
+.col99:nth-child(4){
+    background-color: green;
+}
+
+.logo-images-box-1{
+    height: 150px;
+    padding: 40px 60px;
+}
+
+.logo-images-box-3{
+  
 }

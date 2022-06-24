@@ -12,6 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- header -->
     <header>
         <nav class="nav">
                 <img class="logo" src="img/logo-small.png" alt="logo">
@@ -32,7 +33,7 @@
         </nav>    
     </header>
 
-
+  <!-- Hero section -->
     <main>
         <section class="main-section">
             <div class="container">
@@ -51,10 +52,11 @@
             </div>
         </section>
 
+ <!-- plans section -->
 
-        <section>
+        <section>   
             <div class="container-small">
-                <div>
+                <div class="plan-cont">
                     <h2 class="plans-title"> Trova il piano Business che fa per te</h2>
                     <label class="container-label">fatturazione mensile
                         <input type="radio" checked="checked" name="radio">
@@ -67,102 +69,160 @@
                       </label>
                 </div>
 
-                <div class="row">
-                    <div class="col col-33">
-                        <p class="p-user">
-                            <i class="fa-solid fa-user"></i>Singolo
-                        </p>
-                        <div class="info-professional">
-                            <h3 class="title-plans">Professional</h3>
-                            <p class="price-plan">$ 12.00 <br>
-                            <span>/mese</span>
-                            </p>
-                            <ul class="list-items-plan">
-                                <li><i class="fa-solid fa-user"></i>1 Utente</li>
-                                <li><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione sicuro</li>
-                                <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività Premium e condivisione file semplice e sicura</li>
-                            </ul>
-                            <button class="btn">prova gratis per 30 giorni</button>
-                            <p class="short-line">oppure <a id="buy-now" href="">acquista ora</a></p> 
-                        </div>
-                        <div>
-                            <h4>punti salienti del piano</h4>
-                            <ul class="list-items-plan">
-                                <li><i class="fa-solid fa-check"></i>invia file fino a 100GB con dropbox transfer</li>
-                                <li><i class="fa-solid fa-check"></i>cartelle offline su dispositivi mobili</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col col-33">
-                        <p class="p-user">
-                            <i class="fa-solid fa-user"></i>Singolo
-                        </p>
-                        <div class="info-professional">
-                            <h3 class="title-plans">Professional</h3>
-                            <p class="price-plan">$ 12.00 <br>
-                            <span>/mese</span>
-                            </p>
-                            <ul class="list-items-plan">
-                                <li><i class="fa-solid fa-user"></i>1 Utente</li>
-                                <li><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione sicuro</li>
-                                <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività Premium e condivisione file semplice e sicura</li>
-                            </ul>
-                            <button class="btn">prova gratis per 30 giorni</button>
-                            <p class="short-line">oppure <a id="buy-now" href="">acquista ora</a></p> 
-                        </div>
-                        <div>
-                            <h4>punti salienti del piano</h4>
-                            <ul class="list-items-plan">
-                                <li><i class="fa-solid fa-check"></i>invia file fino a 100GB con dropbox transfer</li>
-                                <li><i class="fa-solid fa-check"></i>cartelle offline su dispositivi mobili</li>
-                                <li><i class="fa-solid fa-check"></i>cartelle offline su dispositivi mobili</li>
-                                <li><i class="fa-solid fa-check"></i>cartelle offline su dispositivi mobili</li>
-                                <li><i class="fa-solid fa-check"></i>cartelle offline su dispositivi mobili</li>
-                            </ul>
+
+                <div class="row card-wrapper">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fa-solid fa-users"></i>
+                                Singolo
+                            </div>
+                            <div class="card-body">
+                                <div class="plan-content-1">
+                                    <div>
+                                        <h3 class="plan-title">Professional</h3>
+                                        <p class="plan-price"><strong>$ 12.00</strong></p>
+                                        <p class="plan-frequency">/mese</p>
+                                    </div>
+
+                                    <ul class="plan-features">
+                                        <li class="feature">
+                                            <i class="fa-solid fa-user"></i>
+                                            1 utente
+                                        </li>
+                                        <li class="feature">
+                                            <i class="fa-solid fa-folder"></i>
+                                            5 TB di spazio
+                                        </li>
+                                        <li class="feature">
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                            Funzioni di produttività 
+                                        </li>
+                                    </ul>
+
+                                    <button class="btn btn-1">prova gratis per 30 giorni</button>
+                                    <p class="short-line">oppure <a id="buy-now" href="">acquista ora</a></p>
+                                </div>
+                                <div class="plan-content-2">
+                                    <h4>punti salienti del piano</h4>
+                                    <ul class="plan-features">
+                                        <li><i class="fa-solid fa-check"></i>invia file fino a 100GB con dropbox transfer</li>
+                                        <li><i class="fa-solid fa-check"></i>cartelle offline su dispositivi mobili</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col col-33">
-                        <p class="p-user">
-                            <i class="fa-solid fa-user"></i>Singolo
-                        </p>
-                        <div class="info-professional">
-                            <h3 class="title-plans">Professional</h3>
-                            <p class="price-plan">$ 12.00 <br>
-                            <span>/mese</span>
-                            </p>
-                            <ul class="list-items-plan">
-                                <li><i class="fa-solid fa-user"></i>1 Utente</li>
-                                <li><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione sicuro</li>
-                                <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività Premium e condivisione file semplice e sicura</li>
-                            </ul>
-                            <button class="btn">prova gratis per 30 giorni</button>
-                            <p class="short-line">oppure <a id="buy-now" href="">acquista ora</a></p> 
+
+
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fa-solid fa-users"></i>
+                                Team
+                            </div>
+                            <div class="card-body">
+                                <div class="plan-content-1">
+                                    <div>
+                                        <h3 class="plan-title">Professional</h3>
+                                        <p class="plan-price"><strong>12</strong></p>
+                                        <p class="plan-frequency">mese</p>
+                                    </div>
+
+                                    <ul class="plan-features">
+                                        <li class="feature">
+                                            <i class="fa-solid fa-user"></i>
+                                            1 utente
+                                        </li>
+                                        <li class="feature">
+                                            <i class="fa-solid fa-user"></i>
+                                            5 TB di spazio
+                                        </li>
+                                        <li class="feature">
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                            funzioni di produttività
+                                        </li>
+                                    </ul>
+
+                                    <button class="btn">prova gratis per 30 giorni</button>
+                                    <p class="short-line">oppure <a id="buy-now" href="">acquista ora</a></p>
+                                </div>
+                                <div class="plan-content-2">
+                                    <h4>punti salienti del piano</h4>
+                                    <ul class="plan-features">
+                                        <li><i class="fa-solid fa-check"></i>invia file fino a 100GB con dropbox transfer</li>
+                                        <li><i class="fa-solid fa-check"></i>cartelle offline su dispositivi mobili</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <h4>punti salienti del piano</h4>
-                            <ul class="list-items-plan">
-                                <li><i class="fa-solid fa-check"></i>invia file fino a 100GB con dropbox transfer</li>
-                                <li><i class="fa-solid fa-check"></i>cartelle offline su dispositivi mobili</li>
-                                <li><i class="fa-solid fa-check"></i>cartelle offline su dispositivi mobili</li>
-                            </ul>
+                    </div>
+
+                    
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="fa-solid fa-users"></i>
+                                Team
+                            </div>
+                            <div class="card-body">
+                                <div class="plan-content-1">
+                                    <div>
+                                        <h3 class="plan-title">Professional</h3>
+                                        <p class="plan-price"><strong>12</strong></p>
+                                        <p class="plan-frequency">mese</p>
+                                    </div>
+
+                                    <ul class="plan-features">
+                                        <li class="feature">
+                                            <i class="fa-solid fa-user"></i>
+                                            1 utente
+                                        </li>
+                                        <li class="feature">
+                                            <i class="fa-solid fa-user"></i>
+                                            5 TB di spazio
+                                        </li>
+                                        <li class="feature">
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                            funzioni di produttività
+                                        </li>
+                                    </ul>
+
+                                    <button class="btn">prova gratis per 30 giorni</button>
+                                    <p class="short-line">oppure <a id="buy-now" href="">acquista ora</a></p>
+                                </div>
+                                <div class="plan-content-2">
+                                    <h4>punti salienti del piano</h4>
+                                    <ul class="plan-features">
+                                        <li><i class="fa-solid fa-check"></i>invia file fino a 100GB con dropbox transfer</li>
+                                        <li><i class="fa-solid fa-check"></i>cartelle offline su dispositivi mobili</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="card"> 
+                            <div class="card-header">
+                                <i class="fa-solid fa-users"></i>
+                                Team
+                            </div>
+                            <div class="card-body">
+                                contenuto
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col col-100"></div>
-                </div>
-            </div>
         </section>
-
-
-
+        
         <section class="section-2">
             <div class="container-small">
                 <div class="row">
-                    <div class="col col-60">
+                    <div class="col col-70">
                         <img src="img/partner.png" alt="partner">
                     </div>
-                    <div class="col col-40">
+                    <div class="col col-50">
                         <h3 class="title-main-section-2">Entra in contatto con un partner dropbox</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore vel molestias, necessitatibus labore eum voluptates quia veniam numquam voluptatibus repellendus mollitia hic suscipit consequatur ratione voluptas est at, magnam natus!</p>
                         <button class="btn-empty">Trova un partner</button>
@@ -261,7 +321,7 @@
                 <div class="col-30">
                     <div class="row-99">
                         <div class="col99 t5">
-                            <img class="logo-images-box" src="img/designit.svg" alt="">
+                            <img class="logo-images-box-1" src="img/designit.svg" alt="">
                         </div>
                         <div class="col99">
                             <img class="logo-images-box" src="img/arizona_state_university.svg" alt="">
