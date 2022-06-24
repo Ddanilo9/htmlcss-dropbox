@@ -359,15 +359,22 @@ li:nth-child(4){
     border: 1px solid red;
 }
 
-.box{
+.row-99{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+}
+
+.col99{
+    flex-basis: calc(100%/2);
+    border: 1px solid green;
 }
 
 .logo-images-box{
-    width: calc(100%/4);
-    margin: 30px;
-    background-color: brown;
+    padding: 40px 60px;
+}
+
+
+.t5{
+    background-color: aqua;
 }
