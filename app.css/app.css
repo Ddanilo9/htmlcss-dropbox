@@ -369,4 +369,5 @@ li:nth-child(4){
 .logo-images-box{
     width: calc(100%/4);
     margin: 30px;
+    background-color: brown;
 }
