@@ -49,7 +49,7 @@ header{
 li{
     padding: 5px;
 }
-li:nth-child(4){
+.nav-list li:nth-child(4){
     background-color: rgba(0,97,255,255);
     color: white;
 }
@@ -149,6 +149,7 @@ li:nth-child(4){
 
 .col-12{
     flex-basis: calc(100%/1);
+    padding-top: 50px;
 }
 
 .card{
@@ -179,6 +180,14 @@ li:nth-child(4){
 
 .btn-1{
     width: 100%;
+}
+
+.enterprise-title{
+    font-size: 25px;
+}
+.container-fl{
+    display: flex;
+    justify-content: space-between;
 }
   
   
@@ -248,7 +257,7 @@ li:nth-child(4){
 
 .fa-user,
 .fa-folder{
-    padding-bottom: 20px;
+    padding-right: 3px;
 }
 
 .fa-share-nodes{
@@ -267,6 +276,29 @@ li:nth-child(4){
     width: 50px;
     margin: 35px 0;
 }
+
+.info-plans{
+    padding-bottom: 35px;
+}
+
+.fa-solid{
+    float: left;
+    clear: both;
+    padding-top: 3px;
+    padding-right: 3px;
+}
+
+.feature{
+    padding-bottom: 20px;
+}
+
+.fa-check{
+    color: #2196F3;
+}
+
+
+
+
 
 
 /* seconda sezione */
