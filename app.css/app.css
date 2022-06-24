@@ -274,3 +274,59 @@ li:nth-child(4){
 .fa-check{
     color: #2196F3;
 }
+
+/* seconda sezione */
+
+.row-section2{
+    display: flex;
+}
+
+.section-2{
+    margin-bottom: 120px;
+}
+
+.col-60{
+    flex-basis: 60%;
+    padding-right: 50px;
+    border: 1px solid red;
+}
+
+.col-40{
+    flex-grow: 1;
+    border: 1px solid red;
+    padding-right: 60px;
+}
+
+.title-main-section-2{
+    padding-top: 70px;
+    margin-bottom: 22px;
+}
+
+.btn-empty{
+    margin-top: 35px;
+    padding: 15px;
+}
+
+/* sezione 3 */
+
+.row-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.col-6{
+    /* flex-basis: calc(100%/3); */
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.title-options{
+    padding-left: 5px;
+}
+
+.title-options-card{
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
