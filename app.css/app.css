@@ -330,3 +330,43 @@ li:nth-child(4){
     padding-top: 20px;
     margin-bottom: 40px;
 }
+
+/* sezione 4 */
+
+.title-more-info{
+    margin-bottom: 60px;
+}
+
+.link-piuinfo{
+    text-decoration: underline;
+    color: blue;
+}
+
+/* sezione carosello */
+
+.section-carosello{
+    margin-top: 50px;
+}
+
+.row-carosello{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-30{
+    flex-basis: 0px;
+    flex-grow: 1;
+    border: 1px solid red;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-images-box{
+    width: calc(100%/4);
+    margin: 30px;
+}
