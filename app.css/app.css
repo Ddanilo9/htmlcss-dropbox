@@ -405,4 +405,33 @@ li{
     width: 50%;
 }
 
+.light-blue{
+    height: 330px;
+    background-color: aqua;
+}
+
+
 /* sezione domande */
+
+.prova-free{
+    display: flex;
+    padding: 50px 105px;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.fa-chevron-down{
+    float: none;
+    padding-right: 10px;
+}
+
+
+.questions-box li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.question-cont{
+    padding: 150px 100px;
+}
