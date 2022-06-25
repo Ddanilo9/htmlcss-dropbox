@@ -369,60 +369,40 @@ li{
 
 /* sezione carosello */
 
-.section-carosello{
-    margin-top: 50px;
-}
-
 .row-carosello{
     display: flex;
     flex-wrap: wrap;
 }
 
-.col-30{
-    flex-basis: 0px;
-    flex-grow: 1;
-    border: 1px solid red;
-}
-
-.row-99{
+.col-4{
     display: flex;
+    width: calc(100% / 3);
+    border: 1px solid red;
     flex-wrap: wrap;
+}
+
+.img-loghi{
+    max-width: 100%;
+    object-fit: contain;
+    border: 1px solid red;
+    padding: 5px 20px;
+}
+
+.container-loghi .img-loghi{
+    width: 50%;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    aspect-ratio: 1/1;
 }
 
-.col99{
-    flex-basis: calc(100%/2);
-
+.middle-paragraph{
+    padding: 50px;
+    background-color: #f5f5f5;
 }
 
-.logo-images-box{
-    padding: 40px 60px;
-    display: block;
+.middle-paragraph img{
+    width: 50%;
 }
 
-
-.col99:nth-child(1){
-    background-color: aqua;
-}
-
-.col99:nth-child(2){
-    background-color: red;
-}
-
-.col99:nth-child(3){
-    background-color: goldenrod;
-    height: 150px;
-}
-
-.col99:nth-child(4){
-    background-color: green;
-}
-
-.logo-images-box-1{
-    height: 150px;
-    padding: 40px 60px;
-}
-
-.logo-images-box-3{
-  
-}
+/* sezione domande */
