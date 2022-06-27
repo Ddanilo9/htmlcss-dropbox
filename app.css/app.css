@@ -340,7 +340,7 @@ header{
 }
 
 .col-70{
-    flex-basis: 60%;
+    flex-basis: 50%;
     padding-right: 50px;
     border: none;
 }
@@ -444,14 +444,17 @@ header{
 
 .col-4{
     display: flex;
-    width: calc(100% / 3);
+    flex-basis: 0;
+    flex-grow: 1;
     flex-wrap: wrap;
 }
 
 .img-loghi{
-    max-width: 100%;
-    object-fit: contain;
     padding: 5px 20px;
+}
+
+.img-loghi img{
+ width: 55%;
 }
 
 .invert{
@@ -480,6 +483,17 @@ header{
     background-color: rgba(180,208,231,255);
 }
 
+.title-prova-free{
+    font-size: 33px;
+    color: rgb(93, 15, 36);
+}
+
+.btn-prova-free{
+    background-color: white;
+    color: black;
+    padding: 10px 40px;
+}
+
 
 /* sezione domande */
 
@@ -500,8 +514,25 @@ header{
 .questions-box li{
     display: flex;
     justify-content: space-between;
+    padding: 25px 0;
 }
 
 .question-cont{
     padding: 150px 100px;
+}
+
+.container-small .questions-box{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.title-domande{
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
 }
